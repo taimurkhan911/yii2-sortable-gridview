@@ -1,0 +1,30 @@
+{
+	"name" : "taimurkhan911/yii2-sortable-gridview",
+	"description" : "Sortable GridView for Yii2",
+	"type" : "yii2-extension",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Taimur Khan",
+			"email" : "taimur911@gmail.com"			
+		}
+	],
+	"support" : {
+		"email" : "taimur911@gmail.com"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"taimurkhan911\\sortable\\" : ""
+		}
+	},
+	"keywords" : [
+		"yii2",
+		"extension",
+		"widget",
+		"gridview"
+	],
+	"require" : {
+		"yiisoft/yii2" : "*",
+		"yiisoft/yii2-jui" : "*",
+		"yiisoft/yii2-bootstrap" : "~2.0.0"
+	}
+}
